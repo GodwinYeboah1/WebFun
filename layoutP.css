@@ -1,0 +1,24 @@
+*
+{
+    margin: 0;
+    padding: 0;
+   
+}
+.wrapper > div:nth-child(odd){
+    background: #be96b4;
+}
+
+.wrapper > div
+{
+
+    background: rgba(202, 41, 226, 0.589);
+    padding: 1em;
+
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 70% 30% ;
+    grid-gap: 1em;
+
+}

@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding: 0;
+    /* border: blueviolet dashed; */
+  
+
+}
+#wrapper
+{
+    background-color: rgb(24, 22, 22);
+    padding: 1em;
+    border: yellow;
+    color: white;
+    height: auto;
+   grid-area: center;
+
+}
+
+#wrapper > div
+{
+   
+    padding: 1em;
+}
+.Header
+{
+    background-color: rgb(31, 29, 29);
+    display: block;
+
+}
+.Header h1{
+    font-style: italic;
+}
+.Header h2{
+   margin-left: 1300px;
+  
+}
+.NavBarLocation
+{
+    margin: 1em;
+    background-color: rgb(75, 75, 75);
+
+}
+.NavBarLocation  p
+{
+    display: inline-block;
+    margin: 1em;
+  
+    /* font-size: bold; */
+}
+
+.innerDecription > div
+{
+    /* display: inline-flex; */
+    display:inline-block;
+    margin: 20em;
+
+}
+.innerDecription
+{
+    width: 50px;
+
+}
+.fourDescription
+{
+
+    display: flex;
+    margin: 10px 20px;
+    /* width: 97%; */
+    background-color: rgb(77, 75, 75);
+    
+}
+.subBox
+{
+
+    display: flex;
+    margin: 2em;
+    width: 30em;
+    text-align: center;
+
+}
+.subBox h2{
+    color:orange;
+}
+
+.innerDpic{
+    display: flex;
+    
+}
+
+.fourDescription h2 
+{
+    display: inline;
+
+}
+.innerDecription  p 
+{
+    display: inline-block;
+}
+
+.buySection
+{
+ background-color: rgb(0, 0, 0);;
+   display: inline-block;
+   padding: 10em;
+   height: 10em;
+   width: 97%;
+   margin-left: 15px;
+
+
+  
+}
+.infoAboutBuy
+{
+    
+   display:block; 
+    
+
+}
+.buyMeButton
+{
+    margin-left:80%;
+    padding: 1em;
+   font-weight: 190em;
+   font-size: 25px;
+    width:0  auto;
+   
+
+}
+.pressMe
+{
+    font-weight: 190em;
+    font-size: 25px;
+    background-color: yellow;
+    border-radius: 5px;
+    text-align: center;
+}
+.footer
+{
+    display: flex;
+}
+.resetBox
+{
+
+    display: block;
+
+    margin: 20px 5px;
+
+}

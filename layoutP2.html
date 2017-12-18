@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .wrapper > div:nth-child(odd)
+        {
+            background: #be96b4;
+        }
+
+        .wrapper > div
+        {
+
+            background: rgba(202, 41, 226, 0.589);
+            padding: 1em;
+
+        }
+
+        .wrapper
+        {
+            
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            grid-gap: 1em;
+            /* grid-auto-rows: 100px; */
+            grid-auto-rows: minmax(100px auto) ;
+        }
+    
+        .nested
+        {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1em;
+           
+        }
+.nested > div
+{
+    border: solid red;
+}
+    
+    
+    
+    </style>
+</head>
+<body>
+    
+    <div class="wrapper">
+    
+        <div>
+            Lorem ipsum dolor sit amet.
+        
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque aspernatur asperiores eligendi perspiciatis unde nemo at consectetur iusto velit quos iste accusantium quae aperiam, ad repudiandae vel excepturi laborum?
+        </div>
+
+        <div>
+                Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque aspernatur asperiores eligendi perspiciatis unde nemo at consectetur iusto velit quos iste accusantium quae aperiam, ad repudiandae vel excepturi laborum?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque aspernatur asperiores eligendi perspiciatis unde nemo at consectetur iusto velit quos iste accusantium quae aperiam, ad repudiandae vel excepturi laborum?
+                
+        </div>
+
+        <div class="nested">
+               <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+               <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+               <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                     
+        </div>
+
+        <div>
+              Lorem ipsum dolor sit amet.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque aspernatur asperiores eligendi perspiciatis unde nemo at consectetur iusto velit quos iste accusantium quae aperiam, ad repudiandae vel excepturi laborum?
+
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque aspernatur asperiores eligendi perspiciatis unde nemo at consectetur iusto velit quos iste accusantium quae aperiam, ad repudiandae vel excepturi laborum?
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque aspernatur asperiores eligendi perspiciatis unde nemo at consectetur iusto velit quos iste accusantium quae aperiam, ad repudiandae vel excepturi laborum?
+              
+         </div>
+
+
+
+
+
+
+
+    </div>
+
+
+</body>
+</html>

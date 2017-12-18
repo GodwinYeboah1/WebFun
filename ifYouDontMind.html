@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+    // running javascipt code in here
+     var minutes = 23;
+     var hours = 2;
+     var period = "PM";
+
+    
+
+    // check to see if greater than 30 or less then 30
+    function timeChecker()
+    {    
+        if( hours > 0)
+        {
+
+            // am / pm checker
+            if( period == "PM")
+            {
+            period = "Evening"
+                
+            }
+            else if(period == "AM")
+            {
+                period = "In the morning"
+            }
+            else
+            {
+                console.log("invaild");
+            }
+        }
+        else
+        {
+            console.log("Hour must be greater than zero");
+         }
+    // Display Result in html console
+    console.log("Its  " + hours + " in the " + period);
+}   
+    timeChecker();
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
